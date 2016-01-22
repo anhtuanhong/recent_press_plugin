@@ -1,0 +1,13 @@
+#recent-press-element-placeholder{
+	display: none;
+}
+#recent-press-list { list-style: none;}
+	.recent-press-element td { display: table-cell; width: 160px; vertical-align: middle; text-align: center;}
+	.recent-press-element-header th { height: 30px; border-bottom: 2px solid #000; }
+	#recent-press-list th.d_order { width: 50px; text-align: center;}
+	#recent-press-list td.d_order { width: 50px; text-align: center;}
+	.recent-press-element-header th.update, .recent-press-element-header th.remove, .recent-press-element-header th.add { width: 80px; border: none;}
+	.recent-press-element td.update, .recent-press-element td.remove, .recent-press-element td.add { width: 80px; border: none; cursor: pointer;}
+	.recent-press-element td.saved { font-weight: bold; color: #008000;}
+	.recent-press-element div.rp_btn { background: #ddd; border: 1px solid #ccc; border-radius: 5px; color: #000;}
+	.recent-press-element .saved div.rp_btn{background: #93DB70; border: 1px solid #5DFC0A;}
